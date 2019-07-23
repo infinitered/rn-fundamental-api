@@ -24,14 +24,6 @@
 			"required": true,
 			"id": "registeredCamp",
 			"order": 2
-		},
-		"purchases": {
-			"name": "purchases",
-			"type": "array",
-			"typeLabel": "array",
-			"required": false,
-			"id": "purchases",
-			"order": 3
 		}
 	}
 }

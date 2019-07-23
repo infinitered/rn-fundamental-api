@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "dev": "dpd -d"
+  },
   "dependencies": {
     "deployd": "^1.2.0"
   },
