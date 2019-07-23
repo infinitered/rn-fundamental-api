@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "deployd": "^1.2.0"
+  },
+  "devDependencies": {
+    "dpd-clientlib": "^1.0.0",
+    "dpd-dashboard": "^1.1.3"
+  }
+}

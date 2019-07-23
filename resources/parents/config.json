@@ -1,0 +1,37 @@
+{
+	"type": "UserCollection",
+	"properties": {
+		"name": {
+			"name": "name",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "name",
+			"order": 0
+		},
+		"childName": {
+			"name": "childName",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "childName",
+			"order": 1
+		},
+		"registeredCamp": {
+			"name": "registeredCamp",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "registeredCamp",
+			"order": 2
+		},
+		"purchases": {
+			"name": "purchases",
+			"type": "array",
+			"typeLabel": "array",
+			"required": false,
+			"id": "purchases",
+			"order": 3
+		}
+	}
+}

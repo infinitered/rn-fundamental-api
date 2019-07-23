@@ -1,0 +1,21 @@
+{
+	"type": "Collection",
+	"properties": {
+		"userId": {
+			"name": "userId",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "userId",
+			"order": 0
+		},
+		"purchasedPosts": {
+			"name": "purchasedPosts",
+			"type": "array",
+			"typeLabel": "array",
+			"required": true,
+			"id": "purchasedPosts",
+			"order": 1
+		}
+	}
+}
