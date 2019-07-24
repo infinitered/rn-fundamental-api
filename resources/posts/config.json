@@ -16,6 +16,14 @@
 			"required": false,
 			"id": "imageUrl",
 			"order": 1
+		},
+		"price": {
+			"name": "price",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "price",
+			"order": 2
 		}
 	}
 }

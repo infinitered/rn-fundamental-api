@@ -42,7 +42,7 @@ assert-plus@1.0.0, assert-plus@^1.0.0:
   resolved "https://registry.yarnpkg.com/assert-plus/-/assert-plus-1.0.0.tgz#f12e0f3c5d77b0b1cdd9146942e4e96c1e4dd525"
   integrity sha1-8S4PPF13sLHN2RRpQuTpbB5N1SU=
 
-async@^2.6.2:
+async@^2.0.1, async@^2.6.2:
   version "2.6.3"
   resolved "https://registry.yarnpkg.com/async/-/async-2.6.3.tgz#d72625e2344a3656e3a3ad4fa749fa83299d82ff"
   integrity sha512-zflvls11DCy+dQWzTW2dzuilv8Z5X/pjfmZOWba6TNIVDm+2UDaJmXSOXlasHKfNBs8oo3M0aT50fDEWfKZjXg==
@@ -262,6 +262,30 @@ doh@^0.0.4:
   dependencies:
     ejs "0.8.x"
 
+dpd-clientlib@^0.8.9:
+  version "0.8.9"
+  resolved "https://registry.yarnpkg.com/dpd-clientlib/-/dpd-clientlib-0.8.9.tgz#bc2115e1ca642c504ffb2650fadb9535f29964cb"
+  integrity sha1-vCEV4cpkLFBP+yZQ+tuVNfKZZMs=
+  dependencies:
+    async "^2.0.1"
+
+dpd-clientlib@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/dpd-clientlib/-/dpd-clientlib-1.0.0.tgz#8279002b7fd2a346d03131e55a53298a6976cba4"
+  integrity sha1-gnkAK3/So0bQMTHlWlMpiml2y6Q=
+  dependencies:
+    async "^2.0.1"
+
+dpd-dashboard@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/dpd-dashboard/-/dpd-dashboard-1.1.3.tgz#07851c0f2ede545d65613a5bb007cafc3dd476c3"
+  integrity sha512-kDECPLMqBgwmLtJ0T+DSF4SFAuYIaQiselJL6K3hjKLWpOrfGx6Zx7weKfcScvSMawjDFiE55qL2ay6rNhW9pA==
+  dependencies:
+    async "^2.0.1"
+    dpd-clientlib "^0.8.9"
+    ejs "^2.5.1"
+    filed-mimefix "^0.1.0"
+
 ecc-jsbn@~0.1.1:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/ecc-jsbn/-/ecc-jsbn-0.1.2.tgz#3a83a904e54353287874c564b7549386849a98c9"
@@ -279,6 +303,11 @@ ejs@0.8.x:
   version "0.8.8"
   resolved "https://registry.yarnpkg.com/ejs/-/ejs-0.8.8.tgz#ffdc56dcc35d02926dd50ad13439bbc54061d598"
   integrity sha1-/9xW3MNdApJt1QrRNDm7xUBh1Zg=
+
+ejs@^2.5.1:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.6.2.tgz#3a32c63d1cd16d11266cd4703b14fec4e74ab4f6"
+  integrity sha512-PcW2a0tyTuPHz3tWyYqtK6r1fZ3gp+3Sop8Ph+ZYN81Ob5rwmbHEzaqs10N3BEsaGTkh/ooniXK+WwszGlc2+Q==
 
 encodeurl@~1.0.2:
   version "1.0.2"
@@ -366,6 +395,13 @@ fast-json-stable-stringify@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/fast-json-stable-stringify/-/fast-json-stable-stringify-2.0.0.tgz#d5142c0caee6b1189f87d3a76111064f86c8bbf2"
   integrity sha1-1RQsDK7msRifh9OnYREGT4bIu/I=
+
+filed-mimefix@^0.1.0:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/filed-mimefix/-/filed-mimefix-0.1.3.tgz#0b0b67d075a63fc74f26fdf39c7f9d4314967bb5"
+  integrity sha1-Cwtn0HWmP8dPJv3znH+dQxSWe7U=
+  dependencies:
+    mime "^1.4.0"
 
 forever-agent@~0.6.1:
   version "0.6.1"
@@ -563,6 +599,11 @@ mime@1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/mime/-/mime-1.4.1.tgz#121f9ebc49e3766f311a76e1fa1c8003c4b03aa6"
   integrity sha512-KI1+qOZu5DcW6wayYHSzR/tXKCDC5Om4s1z2QJjDULzLcmf3DvzS7oluY4HCTrc+9FiKmWUgeNLg7W3uIQvxtQ==
+
+mime@^1.4.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/mime/-/mime-1.6.0.tgz#32cd9e5c64553bd58d19a568af452acff04981b1"
+  integrity sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==
 
 minimatch@^3.0.4:
   version "3.0.4"

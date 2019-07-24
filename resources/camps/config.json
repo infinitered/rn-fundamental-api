@@ -24,14 +24,6 @@
 			"required": true,
 			"id": "description",
 			"order": 2
-		},
-		"feed": {
-			"name": "feed",
-			"type": "array",
-			"typeLabel": "array",
-			"required": false,
-			"id": "feed",
-			"order": 3
 		}
 	}
 }
