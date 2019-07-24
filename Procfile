@@ -1,1 +1,1 @@
-web: dpd -c $MONGODB_URI
+web: node run.js
