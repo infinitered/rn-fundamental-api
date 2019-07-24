@@ -2,15 +2,9 @@ var deployd = require('deployd');
 
 var server = deployd({
   port: process.env.PORT || 5000,
-  env: 'production',
+  env: 'development',
   db: {
-    host: process.env.MONGODB_HOST,
-    port: process.env.MONGODB_PORT,
-    name: process.env.MONGODB_NAME,
-    credentials: {
-      username: process.env.MONGODB_USER,
-      password: process.env.MONGODB_PASS
-    }
+    connectionString: process.env.MONGODB_URI,
   }
 });
 
